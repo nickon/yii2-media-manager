@@ -1,0 +1,42 @@
+{
+    "name": "nickon/yii2-media-manager",
+    "description": "Yii2 pretty file manager",
+    "type": "yii2-module",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/nickon/yii2-media-manager",
+    "keywords": [
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "file manager",
+        "upload manager",
+        "file upload",
+        "upload",
+        "file",
+        "search files"
+    ],
+    "authors": [
+        {
+            "name": "nickon",
+            "email": "me@nick-on.name",
+            "homepage": "https://github.com/nickon"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "creocoder/yii2-flysystem": "^1.0.0"
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/nickon/yii2-media-manager.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nickon\\media_manager\\": "src"
+        }
+    }
+}
